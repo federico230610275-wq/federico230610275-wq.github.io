@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0a0a0a;
+    background-image: url(fonde.jpg);
+    background-size: contain;
+    line-height: 1.8;
+}
+.ew:hover {
+    font-family: 'Courier New', Courier, monospace;
+
+    cursor: pointer;
+    font-size: 65px;
+    transition: 1s;
+}
+
+.rr:hover {
+    font-family: 'Courier New', Courier, monospace;
+    transition:1s;
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(73, 41, 0);
+}
+
+
+header{
+  
+    background-image: url(head.jpg);
+    background-size: contain;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 120px 20px; /* Unidades en px */
+    text-align: center;
+    border-bottom: 5px solid #222;
+}
+
+
+
+
+
+nav {
+    background-image: url(nav.jpg);
+    background-size: auto;
+    padding: 25px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+
+
+
+section {
+    background-image: url(seccc.png);
+    flex: 2;
+    background-position: center;
+    background-size: contain;
+    
+   color: #ddd;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+
+
+
+
+aside {
+    flex: 1;
+    background-image:url(side.jpg);
+    background-size: cover;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+    border: 1px solid #333;
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                      url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=1000');
+    background-size: cover;
+    color: #888;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 60px;
+}
+
+
+
+.mer {
+    display: flex; 
+    max-width: 1300px;
+    margin: 50px auto;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+h1 { font-size: 3.5rem; letter-spacing: 4px; }
+h2 { color: #000; margin-bottom: 25px; border-left: 6px solid #1a1a1a; padding-left: 15px; }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 40px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.fras {
+    margin-top: 40px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-style: italic;
+}
